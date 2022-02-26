@@ -1,0 +1,17 @@
+{
+    "quote": {
+        "column": {
+            "shipping_datetime": true
+        }
+    },
+    "sales_order": {
+        "column": {
+            "shipping_datetime": true
+        }
+    },
+    "sales_order_grid": {
+        "column": {
+            "shipping_datetime": true
+        }
+    }
+}

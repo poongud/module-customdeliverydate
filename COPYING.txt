@@ -1,0 +1,11 @@
+Copyright © 2022-present Adobe
+
+This file is part of Adobe/CustomDeliveryDate.
+
+You are required to add the delivery date and time for the shipping.
+On the checkout shipping page add a new field to collect the shipping date and time.
+When the order is placed, the customer needs to enter the shipping date and time.
+The information is saved in the database and get associated with the order.
+Considering this requirement create a Magento module that provides the functionality.
+
+

@@ -1,0 +1,16 @@
+<div class="delivery-date-section" data-bind="showDeliveryDate:">
+    <form id="shipping-datetime-form" class="form form-shipping-address" data-role="shipping-datetime-form"
+          data-mage-init='{"validation": {}}'>
+        <fieldset class="fieldset ">
+            <div class="field required">
+                <label class="label">
+                    <span class="label"><!-- ko i18n: 'Shipping Delivery Datetime:'--><!-- /ko --></span>
+                </label>
+                <div class="control">
+                    <input class="input-text required-entry" type="text" data-bind="datetimepicker: true"
+                           name="shipping_datetime" id="shipping_datetime" readonly="true"/>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>

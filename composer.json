@@ -1,0 +1,25 @@
+{
+    "name": "poongud/module-customdeliverydate",
+    "description": "Assignment 2",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Poongudivanan",
+            "email": "poongudivanan@gmail.com"
+        }
+    ],
+    "version": "1.0.0",
+    "require": {
+        "php": "~7.3.0||~7.4.0",
+        "magento/framework": "102.0.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Adobe\\CustomDeliveryDate\\": ""
+        }
+    }
+}
